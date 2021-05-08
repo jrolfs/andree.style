@@ -5,5 +5,8 @@
   "repository": "git@github.com:jrolfs/andree.style.git",
   "author": "Jamie Rolfs <jamie@andree.style>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@hover/javascript": "^5.41.0"
+  }
 }
