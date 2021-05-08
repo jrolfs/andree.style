@@ -18,7 +18,8 @@
     "start:types": "tsc -b -w --preserveWatchOutput",
     "test": "hover-scripts test",
     "test:update": "hover-scripts test --updateSnapshot",
-    "validate": "hover-scripts validate"
+    "validate": "hover-scripts validate",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "@hover/javascript": "^5.41.0",
