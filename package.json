@@ -6,6 +6,20 @@
   "author": "Jamie Rolfs <jamie@andree.style>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "run-p build:*",
+    "build:source": "",
+    "build:types": "tsc",
+    "commit": "hover-scripts commit",
+    "format": "hover-scripts format",
+    "lint": "hover-scripts lint",
+    "start": "run-p start:*",
+    "start:source": "",
+    "start:types": "tsc -b -w --preserveWatchOutput",
+    "test": "hover-scripts test",
+    "test:update": "hover-scripts test --updateSnapshot",
+    "validate": "hover-scripts validate"
+  },
   "devDependencies": {
     "@hover/javascript": "^5.41.0",
     "husky": "^6.0.0"
