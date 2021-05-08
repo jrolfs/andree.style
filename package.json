@@ -1,0 +1,9 @@
+{
+  "name": "andree.style",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:jrolfs/andree.style.git",
+  "author": "Jamie Rolfs <jamie@andree.style>",
+  "license": "MIT",
+  "private": true
+}
