@@ -1374,6 +1374,7 @@ __metadata:
   dependencies:
     "@hover/javascript": ^5.41.0
     husky: ^6.0.0
+    typescript: ^4.2.4
   languageName: unknown
   linkType: soft
 
@@ -8642,7 +8643,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@^4:
+"typescript@^4, typescript@^4.2.4":
   version: 4.2.4
   resolution: "typescript@npm:4.2.4"
   bin:
@@ -8652,7 +8653,7 @@ typescript@^4:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4#builtin<compat/typescript>":
+"typescript@patch:typescript@^4#builtin<compat/typescript>, typescript@patch:typescript@^4.2.4#builtin<compat/typescript>":
   version: 4.2.4
   resolution: "typescript@patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"
   bin:
