@@ -1,4 +1,13 @@
 {
-  "extends": "@hover/javascript/tsconfig",
-  "compilerOptions": {}
+  "extends": "@hover/javascript",
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "noEmit": true,
+    "paths": {
+      "src/*": ["./*"],
+      "assets/*": ["./assets/*"],
+      "test/*": ["../test/*"]
+    }
+  }
 }
