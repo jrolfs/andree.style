@@ -1,6 +1,6 @@
 {
   "extends": "@hover/javascript",
-  "include": ["src"],
+  "include": ["src", "test"],
   "compilerOptions": {
     "baseUrl": "src",
     "noEmit": true,
